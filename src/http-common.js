@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// https://sisevent.herokuapp.com/api
+// https://sisevent.herokuapp.com/api ; http://localhost:8800/api
 export default axios.create({
-  baseURL: "http://localhost:8800/api",
+  baseURL: "https://sisevent.herokuapp.com/api",
 });
